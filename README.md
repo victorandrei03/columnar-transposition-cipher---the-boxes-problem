@@ -149,4 +149,4 @@ Out:
 “A ee arme na r “
 “ tg x A ee arme”
 “A ee arme na r “
-“Ana are mere “
+“Ana are mere   “
