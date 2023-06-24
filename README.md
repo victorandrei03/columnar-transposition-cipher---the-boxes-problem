@@ -1,4 +1,4 @@
-THE BOXES PROBLEM
+THE BOXES PROBLEM\n
 1.1. Statement
 In a prison, there are P prisoners. The prison is about to close, so the prison director proposes a game to the prisoners.
 In a room, P boxes numbered from 1 to P will be placed in a random order. Each box contains a different number from 1 to P, which may differ from the number on the box. The prisoners will enter the room one by one and must find the box that contains their own number inside it. Each prisoner is allowed to open only P/2 boxes. If all the prisoners find their respective numbers, they will be released. If even one prisoner fails to find their number, everyone loses.
