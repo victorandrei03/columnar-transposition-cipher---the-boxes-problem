@@ -1,7 +1,7 @@
-THE BOXES PROBLEM\n
-1.1. Statement
-In a prison, there are P prisoners. The prison is about to close, so the prison director proposes a game to the prisoners.
-In a room, P boxes numbered from 1 to P will be placed in a random order. Each box contains a different number from 1 to P, which may differ from the number on the box. The prisoners will enter the room one by one and must find the box that contains their own number inside it. Each prisoner is allowed to open only P/2 boxes. If all the prisoners find their respective numbers, they will be released. If even one prisoner fails to find their number, everyone loses.
+**THE BOXES PROBLEM**
+1.1. Statement__
+In a prison, there are P prisoners. The prison is about to close, so the prison director proposes a game to the prisoners.__
+In a room, P boxes numbered from 1 to P will be placed in a random order. Each box contains a different number from 1 to P, which may differ from the number on the box. The prisoners will enter the room one by one and must find the box that contains their own number inside it. Each prisoner is allowed to open only P/2 boxes. If all the prisoners find their respective numbers, they will be released. If even one prisoner fails to find their number, everyone loses.__
 Since randomly choosing the P/2 boxes for each prisoner is not cost-effective for a large number of prisoners, one of them came up with a solution that gives everyone a higher chance of success.
 Their strategy is as follows: each prisoner first opens the box corresponding to their own number. For example, prisoner Y opens box Y. Inside this box is a number Z. They continue to open box Z, which in turn contains another number T, and they will open that one as well, repeating the steps until they find their number or until they have opened the maximum number of boxes, P/2. This significantly increases the likelihood of finding the box that contains their number. Each prisoner will create a list of all the boxes they have opened until they reach the end (either by finding their number in order or by opening P/2 boxes). The prisoners will enter the room in order, starting with number 1, followed by 2, up to P.
 Your role is that of the director, and you need to pay attention to the progress of the game in order to display the following at the end:
