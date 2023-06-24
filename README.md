@@ -80,7 +80,7 @@ Involves reversing the steps of Encoding A. <br />
 Involves reversing the steps of Encoding B. <br />
 3.2. Input <br />
 • The initial text will be read on the first line. <br />
-• On the following lines, the names of the operations to be applied (EncodingA, EncodingB, DecodingA, DecodingB) will be read, followed by a space and the encoding argument (char* for A and int for B). <br />
+• On the following lines, the names of the operations to be applied (CodificareA, CodificareB, DecodificareA, DecodificareB) will be read, followed by a space and the encoding argument (char* for A and int for B). <br />
 • Reading will stop when "STOP" is entered. <br />
 3.3. Output <br />
 The program will display the result of each operation (encoding/decoding) after each operation. <br />
@@ -97,14 +97,14 @@ For a better understanding, the output will be underlined (to highlight where sp
 Example 1 <br />
 In: <br />
 "Eu pup poala popii popa pupa poala mea" <br />
-EncodingB 7 <br />
+CodificareB 7 <br />
 STOP <br />
 Out: <br />
 hsh tlhEu pup poala ppii popa pupa po <br />
 Example 2: <br />
 In: <br />
 Ana are mere mari <br />
-EncodingA merele <br />
+CodificareA merele <br />
 STOP <br />
 Out: <br />
 n m erre ariAe ama <br />
@@ -113,7 +113,7 @@ n m erre ariAe ama <br />
 Example 3: <br />
 In: <br />
 Eu pup poala popii popa pupa poala mea <br />
-EncodingA cadelnita <br />
+CodificareA cadelnita <br />
 STOP <br />
 Out: <br />
 ulp aoipm Ea ae aop p po ppa upaa po l piu <br />
@@ -121,7 +121,7 @@ ulp aoipm Ea ae aop p po ppa upaa po l piu <br />
 Example 4: <br />
 In: <br />
 Ana are mere <br />
-EncodingB 5 <br />
+CodificareB 5 <br />
 STOP <br />
 Out: <br /> 
 rjwjAna are <br />
@@ -129,7 +129,7 @@ rjwjAna are <br />
 Example 5: <br />
 In: <br />
 Un vultur sta pe pisc cu un pix in plisc <br />
-EncodingB 5 <br />
+CodificareB 5 <br />
 STOP <br />
 Out: <br />
 uqnxhUn vultur sta pe pisc cu un pix in <br />
@@ -137,10 +137,10 @@ uqnxhUn vultur sta pe pisc cu un pix in <br />
 Example 6: <br />
 In: <br />
 Ana are mere <br />
-EncodingA Bob <br />
-EncodingB 6 <br />
-DecodingB 6 <br />
-DecodingA Bob <br />
+CodificareA Bob <br />
+CodificareB 6 <br />
+DecodificareB 6 <br />
+DecodificareA Bob <br />
 STOP <br /> 
 Out: <br />
 “A ee arme na r “ <br />
