@@ -147,3 +147,5 @@ Out: <br />
 “ tg x A ee arme” <br />
 “A ee arme na r “ <br />
 “Ana are mere   “ <br />
+
+<img src="https://t.bkit.co/w_64b12278570fa.gif" />
